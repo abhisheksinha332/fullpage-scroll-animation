@@ -1,0 +1,27 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.button button{
+    padding:5px 25px ;
+    margin: 25px;
+    background-color: red;
+    color: white;
+    border: 2px orange;
+    border-radius: 4px;
+}
+.gradient{
+    height: 500px;
+    background-image: radial-gradient(rgb(129, 124, 124),rgb(90, 87, 87),rgb(22, 22, 22));
+}
+.trans{
+    background: none;
+    transition-delay: background 10s;
+}
+.trans :hover{
+    background: limegreen;
+}
